@@ -2,7 +2,7 @@
 
 Welcome to the **Data Warehouse and Analytics Project** repository!
 
-This project demonstrates an end-to-end data solution — from building a scalable data warehouse to generating actionable business insights.
+This project demonstrates an end-to-end data solution from building a scalable data warehouse to generating actionable business insights.
 
 It is designed as a portfolio project that reflects real-world data engineering and analytics best practices.
 
