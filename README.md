@@ -10,15 +10,15 @@ It is designed as a portfolio project that reflects real-world data engineering 
 
 ## 🏗️ Architecture Diagram
 
-<img width="1627" height="967" alt="image" src="https://github.com/user-attachments/assets/7a5520ab-8b54-40db-af35-525d0c0b0618" />
-
+![Data Warehouse Architecture](docs/architecture.png)
 
 **Overview:**
-- Source Systems: ERP & CRM (CSV files)  
-- Ingestion Layer: Raw data loaded into Bronze layer  
-- Transformation Layer: Data cleaned and standardized in Silver layer  
-- Presentation Layer: Business-ready data in Gold layer  
-- Consumption Layer: SQL analytics and reporting  
+
+- Sources: CRM and ERP systems (CSV files)  
+- Bronze Layer: Raw data ingestion using SQL Server  
+- Silver Layer: Data cleaning, transformation, and standardization  
+- Gold Layer: Business-ready data models for analytics  
+- Consumption: BI tools, SQL queries, and Machine Learning  
 
 ---
 
@@ -27,23 +27,21 @@ It is designed as a portfolio project that reflects real-world data engineering 
 This project covers the complete data lifecycle:
 
 - 🏗️ Data Architecture  
-  - Designed a modern data warehouse using Medallion Architecture  
-  - Bronze Layer – Raw data ingestion  
-  - Silver Layer – Cleaned and transformed data  
-  - Gold Layer – Business-ready data models  
+  - Medallion Architecture (Bronze, Silver, Gold)  
+  - Scalable and modular design  
 
 - ⚙️ ETL Pipelines  
-  - Extract data from source systems  
+  - Extract data from ERP and CRM  
   - Transform and clean datasets  
-  - Load data into warehouse layers  
+  - Load into structured warehouse layers  
 
 - 📐 Data Modeling  
   - Fact tables for transactional data  
   - Dimension tables for descriptive attributes  
 
 - 📈 Analytics & Reporting  
-  - SQL-based reports and dashboards  
-  - Business-focused insights  
+  - SQL-based reporting  
+  - Actionable business insights  
 
 ---
 
@@ -52,51 +50,51 @@ This project covers the complete data lifecycle:
 ### 🏢 Building the Data Warehouse
 
 **Objective:**  
-Develop a modern data warehouse using SQL Server to centralize sales data and support analytical reporting.
+Develop a modern data warehouse using SQL Server to centralize sales data and enable analytical reporting.
 
 **Specifications:**
 
 - 📂 Data Sources  
   - ERP system  
   - CRM system  
-  - Input format: CSV files  
+  - CSV file inputs  
 
 - 🧹 Data Quality  
-  - Clean and standardize data  
-  - Handle missing and inconsistent values  
+  - Data cleansing  
+  - Handling missing and inconsistent data  
 
 - 🔗 Data Integration  
-  - Combine multiple sources into a unified data model  
-  - Optimize for analytical queries  
+  - Unified analytical data model  
+  - Optimized for query performance  
 
 - 🎯 Scope  
-  - Focus only on the latest dataset  
-  - No historical tracking required  
+  - Focus on latest dataset only  
+  - No historization (no SCD)  
 
 - 📘 Documentation  
-  - Clear and structured data model documentation  
-  - Easy to understand for both business and technical users  
+  - Clear schema and data model documentation  
+  - Business-friendly structure  
 
 ---
 
 ## 📊 BI: Analytics & Reporting
 
 **Objective:**  
-Develop SQL-based analytics to generate meaningful insights.
+Develop SQL-based analytics to generate insights for decision-making.
 
 **Key Focus Areas:**
 
 - 👥 Customer Behavior  
-  - Customer segmentation  
-  - Purchase patterns  
+  - Segmentation  
+  - Purchase trends  
 
 - 📦 Product Performance  
-  - Top-performing products  
+  - Top products  
   - Revenue contribution  
 
 - 📉 Sales Trends  
   - Time-based analysis  
-  - Growth and seasonality insights  
+  - Growth patterns  
 
 ---
 
@@ -106,4 +104,4 @@ This project enables stakeholders to:
 
 - Make data-driven decisions  
 - Identify trends and opportunities  
-- Gain visibility into business performance  
+- Analyze business performance effectively  
