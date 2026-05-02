@@ -10,7 +10,8 @@ It is designed as a portfolio project that reflects real-world data engineering 
 
 ## 🏗️ Architecture Diagram
 
-![Data Warehouse Architecture](docs/architecture.png)
+<img width="1627" height="967" alt="image" src="https://github.com/user-attachments/assets/5b4eb075-d3f4-48c3-83d9-4899c93484a5" />
+
 
 **Overview:**
 
