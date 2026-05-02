@@ -8,6 +8,19 @@ It is designed as a portfolio project that reflects real-world data engineering 
 
 ---
 
+## 🏗️ Architecture Diagram
+
+![Data Warehouse Architecture](docs/architecture.png)
+
+**Overview:**
+- Source Systems: ERP & CRM (CSV files)  
+- Ingestion Layer: Raw data loaded into Bronze layer  
+- Transformation Layer: Data cleaned and standardized in Silver layer  
+- Presentation Layer: Business-ready data in Gold layer  
+- Consumption Layer: SQL analytics and reporting  
+
+---
+
 ## 🚀 Project Overview
 
 This project covers the complete data lifecycle:
