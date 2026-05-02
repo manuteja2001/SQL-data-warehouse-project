@@ -10,7 +10,8 @@ It is designed as a portfolio project that reflects real-world data engineering 
 
 ## 🏗️ Architecture Diagram
 
-![Data Warehouse Architecture](docs/architecture.png)
+<img width="1627" height="967" alt="image" src="https://github.com/user-attachments/assets/7a5520ab-8b54-40db-af35-525d0c0b0618" />
+
 
 **Overview:**
 - Source Systems: ERP & CRM (CSV files)  
